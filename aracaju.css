@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Courgette&family=Poppins:wght@600&family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@600&display=swap');
+@charset ="utf-8";
+
+body {
+margin: 0px;
+padding: 0px;
+width: auto;
+
+}
+
+header{
+position: relative;
+top: -20px;
+height: 570px;
+background: linear-gradient(dimgray, Teal, Aquamarine);
+box-shadow: 0px 0px 4px Aquamarine;
+border: 2px solid Teal;
+}
+#logo {
+	display: flex;
+}
+h3 {
+	position: relative;
+	bottom: -30px;
+	right: -30px;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+}
+nav{
+	display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+nav ul{
+	list-style: none;
+    
+}
+nav ul li{
+	position: relative;
+	bottom: 50px;
+	left: -5px;
+	display: inline-block;
+	padding: 2px;
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 2px 2px 3px black;
+	margin: 4px;
+	border-radius: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	
+
+}
+nav ul li:hover{
+	background-color: lightgray;
+}
+#texto1 h1{
+	text-align: center;
+	font-size: 70px;
+	font-family: Courgette;
+	text-shadow: 2px 2px 3px white;
+}
+#texto1 h2{
+	text-align: center;
+	font-size: 40px;
+	color: black;
+}
+#texto1 p{
+	text-align: justify;
+	padding: 10px;
+	font-size: 30px;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+	color: DarkSlateGray;
+}
+h5{
+	text-align: center;
+	font-size: 30px;
+}
+#record h2{
+	font-family: Courgette;
+	font-size: 50px;
+}
+figure{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+#foto1{
+	position: relative;
+	left: -50px;
+	width: 300px;
+	height: 200px;
+	border: 3px solid black;
+}
+
+#foto1 img{
+	width: 100%;
+	height: 100%;
+}
+ #foto1 figcaption{
+	position: absolute;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	opacity: 0;
+	transition: 1s;
+	color: white;
+	box-shadow: 2px 2px 3px white;
+}
+#foto1:hover figcaption{
+	opacity: 0.5;
+
+}
+#foto2 {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	border: 3px solid black;
+}
+#foto2 img{
+	width: 100%;
+	height: 100%;
+}
+#foto2 figcaption{
+	position: absolute;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	opacity: 0;
+	color: white;
+	transition: 1s;
+	box-shadow: 2px 2px 3px white;
+}
+#foto2:hover figcaption{
+	opacity: 0.5;
+}
+#foto3{
+	position: relative;
+	right: -50px;
+	width: 300px;
+	height: 200px;
+	border: 3px solid black;
+}
+#foto3 img{
+	width: 100%;
+	height: 100%;
+}
+#foto3 figcaption{
+	position: absolute;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	opacity: 0;
+	color: white;
+	transition: 1s;
+	box-shadow: 2px 2px 3px white;
+}
+#foto3:hover figcaption{
+	opacity: 0.5;
+}
+
+
+.two {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+#foto4{
+	position: relative;
+	left: -25px;
+	width: 300px;
+	height: 200px;
+	border: 3px solid black;
+
+	
+}
+#foto4 img{
+	width: 100%;
+	height: 100%;
+}
+#foto4 figcaption{
+	position: absolute;
+	top: 0;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	opacity: 0;
+	color: white;
+	transition: 1s;
+	box-shadow: 2px 2px 3px white;
+}
+#foto4:hover figcaption{
+	opacity: 0.5;
+}
+#foto5 {       
+	position: relative;
+	left: -1px;
+	width: 300px;
+	height: 200px;
+	border: 3px solid black;
+}
+#foto5 img{
+	width: 100%;
+	height: 100%;
+}
+#foto5 figcaption{
+	position: absolute;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	color: white;
+	opacity: 0;
+	transition: 1s;
+	box-shadow: 2px 2px 3px white;
+}
+#foto5:hover figcaption{
+	opacity: 0.5;
+}
+#foto6{
+	position: relative;
+	right: -22px;
+	width: 300px;
+	height: 200px;
+	border: 3px solid black;
+}
+#foto6 img{
+	width: 100%;
+	height: 100%;
+}
+#foto6 figcaption{
+	position: absolute;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	color: white;
+	opacity: 0;
+	transition: 1s;
+	box-shadow: 2px 2px 3px white;
+}
+#foto6:hover figcaption{
+	opacity: 0.7;
+}
+#events{
+	display: flex;
+	justify-content: center;
+	height: 500px;
+	background: linear-gradient(dimgray, Teal, Aquamarine);
+	margin-top: 50px;
+}
+#events h1{
+	color: red;
+}
+footer{
+	position: relative;
+	bottom: -120px;
+	width: 100%;
+    height: 100px;
+   
+
+}
+#text_rodape{
+position: relative;
+font-size: 20px;
+bottom: -85px;
+margin-left: 10px;
+
+}
+#hurb{
+	text-align: right;
+	position: relative;
+	left: -180px;
+	bottom: -45px;
+	color: black;
+	height: 50px;
+
+	}
+
+#hurb ul li a{
+	text-decoration: none;
+	color: lightgray;
+	font-family: Anton;
+	font-size: 15px;
+	background: blue;
+	border: 2px solid black;
+}
+
+#logofim img{
+	width: 30px;
+	position: relative;
+	right: -1200px;
+	bottom: 15px;
+	padding: 5px;
+}
