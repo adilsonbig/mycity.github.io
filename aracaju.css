@@ -96,6 +96,7 @@ figure.one{
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
+	cursor: pointer;
 }
 
 #foto1{
@@ -186,6 +187,7 @@ figure.one{
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
+	cursor: pointer;
 }
 #foto4{
 	position: relative;
@@ -278,7 +280,9 @@ figure.one{
 	margin-top: 50px;
 }
 #events h1{
-	color: red;
+	color: #0000CD;
+	font-family: Courgette;
+	text-shadow: 2px 2px 2px #ffffff;
 }
 footer{
 	position: relative;
