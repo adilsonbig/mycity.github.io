@@ -14,7 +14,7 @@ position: relative;
 top: -20px;
 height: 570px;
 background: rgb(0,212,255);
-background: linear-gradient(0deg, rgba(0,212,255,1) 2%, rgba(5,3,27,0.9051995798319328) 44%);
+background: linear-gradient(0deg, rgba(0,212,255,1) 2%, rgba(17,83,212,1) 61%);
 box-shadow: 0px 0px 4px Aquamarine;
 border: 2px solid Teal;
 }
@@ -23,7 +23,7 @@ border: 2px solid Teal;
 }
 h3 {
 	position: relative;
-	bottom: -30px;
+	bottom: 5px;
 	right: -30px;
 	font-size: 30px;
 	color: white;
@@ -43,7 +43,7 @@ nav ul{
 }
 nav ul li{
 	position: relative;
-	bottom: 50px;
+	bottom: 85px;
 	left: -5px;
 	display: inline-block;
 	padding: 2px;
@@ -66,7 +66,7 @@ nav ul li:hover{
 	text-align: center;
 	font-size: 70px;
 	font-family: Courgette;
-	color: #0000FF;
+	color: #051f52;
 	text-shadow: 2px 2px 3px white;
 }
 #texto1 h2{
@@ -101,6 +101,11 @@ figure.one{
 	display: flex;
 	justify-content: space-around;
 	cursor: pointer;
+	
+}
+figure.one img {
+	border-radius: 10px;
+	border: 2px solid #0000FF;
 }
 
 #foto1{
@@ -108,7 +113,7 @@ figure.one{
 	left: -50px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #0000FF;
+	
 }
 
 #foto1 img{
@@ -136,7 +141,7 @@ figure.one{
 	position: relative;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #0000FF;
+	
 }
 #foto2 img{
 	width: 100%;
@@ -163,7 +168,7 @@ figure.one{
 	right: -50px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #0000FF;
+	
 }
 #foto3 img{
 	width: 100%;
@@ -193,13 +198,16 @@ figure.one{
 	justify-content: space-around;
 	cursor: pointer;
 }
+.two img {
+	border-radius: 10px;
+	border: 2px solid #0000FF;
+}
 #foto4{
 	position: relative;
 	left: -25px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #0000FF;
-
+	
 	
 }
 #foto4 img{
@@ -227,7 +235,7 @@ figure.one{
 	left: -1px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #0000FF;
+	
 }
 #foto5 img{
 	width: 100%;
@@ -254,7 +262,7 @@ figure.one{
 	right: -22px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #0000FF;
+	
 }
 #foto6 img{
 	width: 100%;
