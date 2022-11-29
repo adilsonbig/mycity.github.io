@@ -335,6 +335,7 @@ color: #0000FF;
 	right: -1200px;
 	bottom: 15px;
 	padding: 5px;
+	border-radius: 10PX;
 	transition: transform 0.2s;
 }
 #logofim img:hover {
