@@ -13,7 +13,8 @@ header{
 position: relative;
 top: -20px;
 height: 570px;
-background: #6495ED;
+background: rgb(0,212,255);
+background: linear-gradient(0deg, rgba(0,212,255,1) 2%, rgba(5,3,27,0.9051995798319328) 44%);
 box-shadow: 0px 0px 4px Aquamarine;
 border: 2px solid Teal;
 }
@@ -107,7 +108,7 @@ figure.one{
 	left: -50px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #1E90FF;
+	border: 2px solid #0000FF;
 }
 
 #foto1 img{
@@ -135,7 +136,7 @@ figure.one{
 	position: relative;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #1E90FF;
+	border: 2px solid #0000FF;
 }
 #foto2 img{
 	width: 100%;
@@ -162,7 +163,7 @@ figure.one{
 	right: -50px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #1E90FF;
+	border: 2px solid #0000FF;
 }
 #foto3 img{
 	width: 100%;
@@ -197,7 +198,7 @@ figure.one{
 	left: -25px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #1E90FF;
+	border: 2px solid #0000FF;
 
 	
 }
@@ -226,7 +227,7 @@ figure.one{
 	left: -1px;
 	width: 300px;
 	height: 200px;
-	border: 2px solid #1E90FF;
+	border: 2px solid #0000FF;
 }
 #foto5 img{
 	width: 100%;
@@ -251,9 +252,9 @@ figure.one{
 #foto6{
 	position: relative;
 	right: -22px;
-	width: 300px:
+	width: 300px;
 	height: 200px;
-	border: 2px solid #1E90FF;
+	border: 2px solid #0000FF;
 }
 #foto6 img{
 	width: 100%;
@@ -279,13 +280,13 @@ figure.one{
 	display: flex;
 	justify-content: center;
 	height: 500px;
-	background: #6495ED;
+	background: #0000FF;
 	margin-top: 50px;
 }
 #events h1{
-	color: #0000CD;
+	color: #fff;
 	font-family: Courgette;
-	text-shadow: 2px 2px 2px #ffffff;
+	text-shadow: 2px 2px 2px #020b2e;
 }
 footer{
 	position: relative;
