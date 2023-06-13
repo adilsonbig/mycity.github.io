@@ -276,15 +276,15 @@ h2{
 #foto6:hover figcaption{
 	opacity: 0.7;
 }
-#events{
+.events{
 	display: flex;
 	justify-content: center;
 	height: 500px;
-	background: #0000FF;
+	background: green;
 	margin-top: 50px;
 }
-#events h1{
-	color: #fff;
+.events h1{
+	color: #FFD700;
 	font-family: Courgette;
 	text-shadow: 2px 2px 2px #020b2e;
 }
