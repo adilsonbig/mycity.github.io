@@ -8,76 +8,70 @@ padding: 0px;
 width: auto;
 
 }
-
-header{
-position: relative;
-top: -20px;
-height: 570px;
-background: rgb(0,212,255);
-background: linear-gradient(0deg, rgba(0,212,255,1) 2%, rgba(17,83,212,1) 61%);
-box-shadow: 0px 0px 4px Aquamarine;
-border: 2px solid Teal;
+section.city_great {
+	width: 100%;
+	background: #274546;
 }
-#logo {
+.city_great {
 	display: flex;
+	justify-content: space-between;
+	
 }
-h3 {
-	position: relative;
-	bottom: 5px;
-	right: -30px;
-	font-size: 30px;
-	color: white;
-	text-shadow: 2px 2px 3px black;
+
+p.logo {
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #efeee5;
+	margin-left: 10px;	
 }
 nav{
-	display: flex;
-    align-items: center;
-    justify-content: right;
-	position: relative;
+	
 	
 
 }
 nav ul{
 	list-style: none;
+	margin-right: 15px;
     
 }
 nav ul li{
-	position: relative;
-	bottom: 85px;
-	left: -5px;
+	
 	display: inline-block;
-	padding: 2px;
+	
+	padding: 5px;
 	background-color: white;
 	border: 2px solid black;
 	box-shadow: 2px 2px 3px black;
-	margin: 4px;
+	
 	border-radius: 10px;
 }
 nav ul li a{
 	text-decoration: none;
-	color: #0000FF;
+	color: #006a6a;
 	
 
 }
 nav ul li:hover{
-	background-color: lightgray;
+	background-color: #FFD700;
 }
-#texto1 h1{
+.presentation h1{
 	text-align: center;
 	font-size: 70px;
 	font-family: Courgette;
-	color: #051f52;
-	text-shadow: 2px 2px 3px white;
+	color: #FFD700;
+	text-shadow: 2px 2px 3px #006a6a;
 }
-#texto1 h2{
+.presentation h2{
 	text-align: center;
-	font-size: 40px;
-	color: black;
+	font-size: 2.5rem;
+	font-family: Courgette;
+	color: green;
 }
-#texto1 p{
+.presentation p{
 	text-align: justify;
-	padding: 10px;
-	font-size: 30px;
+	padding: 15px;
+	font-size: 1.8rem;
+	color: green;
 }
 h1{
 	text-align: center;
@@ -88,39 +82,35 @@ h2{
 	color: #0000CD;
 	text-shadow: 2px 2px 2px white;
 }
-h5{
-	text-align: center;
-	font-size: 30px;
-}
-#record h2{
+
+.record h2{
 	font-family: Courgette;
 	font-size: 50px;
+	color: green;
 }
-figure.one{
+.one{
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
 	cursor: pointer;
 	
 }
-figure.one img {
+.one img {
 	border-radius: 10px;
-	border: 2px solid #0000FF;
+	border: 2px solid green;
 }
 
-#foto1{
+.foto1{
 	position: relative;
-	left: -50px;
-	width: 300px;
+    width: 300px;
 	height: 200px;
-	
 }
 
-#foto1 img{
+.foto1 img{
 	width: 100%;
 	height: 100%;
 }
- #foto1 figcaption{
+ .foto1 figcaption{
 	position: absolute;
 	top: 0px;
 	background: rgba(0, 0, 0, 0.5);
@@ -132,22 +122,23 @@ figure.one img {
 	transition: 1s;
 	color: white;
 	box-shadow: 2px 2px 3px white;
+	border-radius: 10px;
 }
-#foto1:hover figcaption{
+.foto1:hover figcaption{
 	opacity: 0.5;
 
 }
-#foto2 {
+.foto2 {
 	position: relative;
 	width: 300px;
 	height: 200px;
 	
 }
-#foto2 img{
+.foto2 img{
 	width: 100%;
 	height: 100%;
 }
-#foto2 figcaption{
+.foto2 figcaption{
 	position: absolute;
 	top: 0px;
 	background: rgba(0, 0, 0, 0.5);
@@ -159,22 +150,22 @@ figure.one img {
 	color: white;
 	transition: 1s;
 	box-shadow: 2px 2px 3px white;
+	border-radius: 10px;
 }
-#foto2:hover figcaption{
+.foto2:hover figcaption{
 	opacity: 0.5;
 }
-#foto3{
+.foto3{
 	position: relative;
-	right: -50px;
 	width: 300px;
 	height: 200px;
 	
 }
-#foto3 img{
+.foto3 img{
 	width: 100%;
 	height: 100%;
 }
-#foto3 figcaption{
+.foto3 figcaption{
 	position: absolute;
 	top: 0px;
 	background: rgba(0, 0, 0, 0.5);
@@ -186,25 +177,26 @@ figure.one img {
 	color: white;
 	transition: 1s;
 	box-shadow: 2px 2px 3px white;
+	border-radius: 10px;
 }
-#foto3:hover figcaption{
+.foto3:hover figcaption{
 	opacity: 0.5;
 }
-
 
 .two {
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
 	cursor: pointer;
+	margin-top: 40px;
 }
 .two img {
 	border-radius: 10px;
-	border: 2px solid #0000FF;
+	border: 2px solid green;
 }
 #foto4{
 	position: relative;
-	left: -25px;
+	
 	width: 300px;
 	height: 200px;
 	
@@ -232,7 +224,7 @@ figure.one img {
 }
 #foto5 {       
 	position: relative;
-	left: -1px;
+	
 	width: 300px;
 	height: 200px;
 	
@@ -259,7 +251,7 @@ figure.one img {
 }
 #foto6{
 	position: relative;
-	right: -22px;
+	
 	width: 300px;
 	height: 200px;
 	
