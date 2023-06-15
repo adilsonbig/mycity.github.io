@@ -6,6 +6,7 @@ body {
 margin: 0px;
 padding: 0px;
 width: auto;
+background: #ffef96;
 
 }
 section.city_great {
@@ -25,9 +26,7 @@ p.logo {
 	margin-left: 10px;	
 }
 nav{
-	
-	
-
+	display: flex;	
 }
 nav ul{
 	list-style: none;
@@ -35,21 +34,16 @@ nav ul{
     
 }
 nav ul li{
-	
 	display: inline-block;
-	
 	padding: 5px;
 	background-color: white;
 	border: 2px solid black;
 	box-shadow: 2px 2px 3px black;
-	
 	border-radius: 10px;
 }
 nav ul li a{
 	text-decoration: none;
 	color: #006a6a;
-	
-
 }
 nav ul li:hover{
 	background-color: #FFD700;
@@ -277,7 +271,6 @@ h2{
 	opacity: 0.7;
 }
 .events{
-	width: 100%;
 	height: 900px;
 	display: block;
 	justify-content: center;
@@ -291,8 +284,6 @@ h2{
 	text-shadow: 2px 2px 2px #020b2e;
 	font-size: 2.3rem;
 	margin-top: 50px;
-	
-	
 }
 .events h2.event-1 {
  margin-top: 70px;
@@ -352,71 +343,66 @@ h2.event-2 {
 .img6:hover img {
 	transform: scale(1.3);
 }
-footer {
-	position: relative;
-	bottom: -120px;
-	width: 100%;
-    height: 100px;
- }
-#text_rodape{
-font-family: Courgette;
-position: relative;
-font-size: 20px;
-bottom: -85px;
-margin-left: 10px;
-color: #0000FF;
+
+.text_rodape{
+  font-family: Courgette;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #0000FF;
 
 }
-#hurb{
-	text-align: right;
-	position: relative;
-	left: -180px;
-	bottom: -45px;
-	color: black;
-	height: 50px;
-	
-	}
-#hurb ul li a{
-	transition: 0.2s;
+.rodape {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-#hurb ul li a:hover {
-	background: #191970;
+.hurb{
+	display: flex;
 }
-
-#hurb ul li a{
+.hurb ul {
+	text-decoration: none;
+	list-style: none;
+}
+.hurb ul li a{
 	text-decoration: none;
 	color: lightgray;
 	font-family: Anton;
 	font-size: 15px;
 	background: blue;
 	border: 2px solid black;
+	transition: 0.2s;
+}
+.hurb ul li a:hover {
+	background: #191970;
+}
+.logofim {
+	margin-right: 20px;
 }
 
-#logofim img{
-	width: 30px;
+.logofim img{
+	width: 1.9rem;
 	position: relative;
-	right: -1200px;
-	bottom: 15px;
 	padding: 5px;
 	border-radius: 10PX;
 	transition: transform 0.2s;
 }
-#logofim img:hover {
+.logofim img:hover {
 	transform: scale(1.2);
 }
-#titulo1 {
+.titulo1 {
 	display: block;
 }
-#titulo1 h1 {
+.titulo1 h1 {
 	font-size: 3rem;
-	color: #FFD700;
-	text-shadow: 2px 2px 2px #ffffff;
+	color:  #006a6a;
+	text-shadow: ;
 }
-#titulo1 p {
+.titulo1 p {
 	text-align: center;
-	color: #ffffff;
+	color: #405d27;
 	font-size: 1.5rem;
-	text-shadow: 2px 2px 2px black;
+	font-weight: bold;
+	
 }
 figure.two {
 	display: block;
