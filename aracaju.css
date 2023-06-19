@@ -439,3 +439,113 @@ figure.two {
 .conj2 img:hover {
 	transform: scale(1.2);
 }
+.anuncios_dia {
+	padding: 20px;
+}
+.anuncio_title {
+	display: flex;
+	justify-content: center;
+}
+h2.anuncio_title {
+	color: #006a6a;
+	font-size: 2.3rem;
+	font-family: Arial;
+	font-weight: bold;
+	font-family: Courgette;
+}
+
+p.coment {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1.8rem;
+	margin-top: 70px;
+	color: green;
+	
+}
+p.texto {
+	text-align: center;
+	font-size: 1.3rem;
+	font-family: Arial;
+	font-weight: bold;
+}
+.product1 {
+	display: flex;
+	justify-content: space-around;
+}
+.product1 img {
+	width: 250px;
+	border-radius: 20px;
+}
+.product2 {
+	display: flex;
+	justify-content: space-around;
+}
+.product2 img {
+	width: 250px;
+	border-radius: 20px;
+	margin-top: 80px;
+}
+p.contact_ag {
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.logo_ag {
+	display: flex;
+	justify-content: center;
+	
+}
+.logo_ag img {
+	width: 40px;
+	border-radius: 30px;
+	padding: 5px;
+}
+.home_anuncio {
+	display: flex;
+}
+.home_anuncio a {
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.ag_import {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.ag_import img {
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+.name_ag {
+	font-family: Arial;
+	font-weight: bold;
+}
+.menu {
+	display: flex;
+	justify-content: right;
+	
+}
+.menu ul {
+	list-style: none;
+	margin-right: 10px;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 10px;
+}
+.menu ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	color: green;
+}
+.menu ul li a:hover {
+	color: coral;
+}
+@media screen and (min-width:760px) and (min-width:1030){
+
+}
