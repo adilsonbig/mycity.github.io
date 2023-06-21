@@ -836,6 +836,7 @@ p.contact_ag {
 	.record h2 {
 		font-size: 35px;
 	}
+	
 	.foto1, .foto2, .foto3 {
 		width: 130px;
 		height: 80px;
@@ -857,17 +858,18 @@ p.contact_ag {
 		font-size: 0.8rem;
 	}
 	.img_events img {
-		width: 150px;
+		width: 130px;
 	}
 	.img_events2 img {
-		width: 150px;
+		width: 130px;
 	}
 	.text_rodape {
 		font-size: 15px;
 	}
-	.hurb ul li a {
-		font-size: 13px;
+	.hurb {
+		display: none;
 	}
+	
 	.logofim img {
 		width: 1.7rem;
 	}
@@ -884,9 +886,88 @@ p.contact_ag {
 		display: none;
 	}
 }
-@media screen and (min-width:150px) {
+@media screen and (min-width:150px) and (max-width:399px) {
+	p.logo {
+		font-size: 1.1rem;
+	}
+	.presentation h1 {
+		font-size: 40px;
+	}
+	.presentation h2{
+		font-size: 2rem;
+		
+	}
+	.presentation p {
+		font-size: 1.1rem;
+	}
+	.record h2 {
+		font-size: 28px;
+	}
+	.one {
+		display: block;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.foto1, .foto2, .foto3 {
+		width: 300px;
+		height: 150px;
+		margin-top: 20px;
+		
+	}
+	.two {
+		display: block;
+	}
+	#foto4, #foto5, #foto6 {
+		width: 300px;
+		height: 150px;
+		margin-top: 20px;
+	}
+	.events {
+		height: auto;
+	}
+	.events .title_events h1 {
+		font-size: 1.5rem;
+	}
+	
+	
+	.img_events {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.img1 img, .img2 img, .img3 img {
+		width: 300px;
+		height: 150px;
+	}
+	.img_events2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.hurb {
+		display: none;
+	}
+	.rodape {
+		display: block;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.text_rodape {
+		font-size: 1.1rem;
+	}
+	.logofim {
+		display: flex;
+		justify-content: center;
+	}
+	
 	
 }
+
 
 
 
