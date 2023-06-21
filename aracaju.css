@@ -673,7 +673,7 @@ p.contact_ag {
 		width: 1.7rem;
 	}
 }
-@media screen and (min-width:500px) and (max-width:709px) {
+@media screen and (min-width:610px) and (max-width:709px) {
 	p.logo {
 		font-size: 1.2rem;
 	}
@@ -703,12 +703,12 @@ p.contact_ag {
 		font-size: 35px;
 	}
 	.foto1, .foto2, .foto3 {
-		width: 150px;
-		height: 100px;
+		width: 130px;
+		height: 80px;
 	}
 	#foto4, #foto5, #foto6 {
-		width: 150px;
-		height: 100px;
+		width: 130px;
+		height: 80px;
 	}
 	.events {
 		height: 800px;
@@ -739,6 +739,12 @@ p.contact_ag {
 	}
 	.img1:hover img, .img2:hover img, .img3:hover img, .img4:hover img, .img5:hover img, .img6:hover img {
 		transform: scale(1.1);
+	}
+	.foto1 figcaption, .foto2 figcaption, .foto3 figcaption {
+		font-size: 0.7rem;
+	}
+	#foto4 figcaption, #foto5 figcaption, #foto6 figcaption {
+		font-size: 0.7rem;
 	}
 }
 @media screen and (max-width:610px) {
@@ -786,8 +792,6 @@ p.contact_ag {
         transition: 0.3s;
 		border: 1px solid #fff;
 	}
-	
-	
 	nav ul li {
 		
 		margin-top: 5px;
@@ -803,8 +807,35 @@ p.contact_ag {
 		right: 0;
 	}
 }
-
-@media screen and (max-width:610px) {
+@media screen and (min-width:400px) and (max-width:609px) {
+	p.logo {
+		font-size: 1.2rem;
+	}
+	nav ul li {
+		padding: 3px;
+	}
+	nav ul li a {
+		font-size: 0.8rem;
+	}
+	
+	header {
+		width: 100%;
+	}
+	main {
+		width: 100%;
+	}
+	.presentation h1 {
+		font-size: 50px;
+	}
+	.presentation h2 {
+		font-size: 2rem;
+	}
+	.presentation p {
+		font-size: 1.3rem;
+	}
+	.record h2 {
+		font-size: 35px;
+	}
 	.foto1, .foto2, .foto3 {
 		width: 130px;
 		height: 80px;
@@ -814,7 +845,16 @@ p.contact_ag {
 		height: 80px;
 	}
 	.events {
-		height: 700px;
+		height: 800px;
+	}
+	.events .title_events h1 {
+		font-size: 1.6rem;
+	}
+	.events h2.event-1{
+		font-size: 1rem;
+	}
+	h2.event-2 {
+		font-size: 0.8rem;
 	}
 	.img_events img {
 		width: 150px;
@@ -823,12 +863,30 @@ p.contact_ag {
 		width: 150px;
 	}
 	.text_rodape {
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.hurb ul li a {
-		font-size: 10px;
+		font-size: 13px;
 	}
 	.logofim img {
-		width: 1.5rem;
+		width: 1.7rem;
+	}
+	.img1:hover img, .img2:hover img, .img3:hover img, .img4:hover img, .img5:hover img, .img6:hover img {
+		transform: scale(1.1);
+	}
+	.foto1 figcaption, .foto2 figcaption, .foto3 figcaption {
+		font-size: 0.7rem;
+	}
+	#foto4 figcaption, #foto5 figcaption, #foto6 figcaption {
+		font-size: 0.7rem;
+	}
+	.hurb {
+		display: none;
 	}
 }
+@media screen and (min-width:150px) {
+	
+}
+
+
+
