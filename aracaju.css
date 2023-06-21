@@ -936,12 +936,16 @@ p.contact_ag {
 		height: 150px;
 		margin-top: 20px;
 	}
+	.record h2 {
+		padding: 10px;
+	}
 	.events {
 		height: 1770px;
 		border: none;
 	}
 	.events .title_events h1 {
 		font-size: 1.5rem;
+		padding: 10px;
 	}
 	
 	
