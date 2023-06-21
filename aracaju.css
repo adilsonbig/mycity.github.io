@@ -890,8 +890,21 @@ p.contact_ag {
 	p.logo {
 		font-size: 1.1rem;
 	}
+	nav ul li {
+		padding: 3px;
+	}
+	nav ul li a {
+		padding: 0px;
+		font-size: 0.7rem;
+		font-weight: bold;
+	}
+	.nav-menu {
+		margin-top: 20px;
+		border: none;
+	}
 	.presentation h1 {
 		font-size: 40px;
+		margin-top: 50px;
 	}
 	.presentation h2{
 		font-size: 2rem;
@@ -924,7 +937,8 @@ p.contact_ag {
 		margin-top: 20px;
 	}
 	.events {
-		height: auto;
+		height: 1770px;
+		border: none;
 	}
 	.events .title_events h1 {
 		font-size: 1.5rem;
@@ -946,6 +960,7 @@ p.contact_ag {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		
 	}
 	
 	.hurb {
@@ -963,6 +978,7 @@ p.contact_ag {
 	.logofim {
 		display: flex;
 		justify-content: center;
+		
 	}
 	
 	
