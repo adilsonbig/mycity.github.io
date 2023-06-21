@@ -947,7 +947,16 @@ p.contact_ag {
 		font-size: 1.5rem;
 		padding: 10px;
 	}
-	
+	.events .title_events h1 {
+		font-size: 1.5rem;
+	}
+	.events h2.event-1{
+		font-size: 1.1rem;
+	}
+	h2.event-2 {
+		font-size: 1.1rem;
+		padding: 10px;
+	}
 	
 	.img_events {
 		display: flex;
@@ -956,7 +965,7 @@ p.contact_ag {
 		align-items: center;
 	}
 	.img1 img, .img2 img, .img3 img {
-		width: 300px;
+		width: 270px;
 		height: 150px;
 	}
 	.img_events2 {
@@ -964,7 +973,10 @@ p.contact_ag {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		
+	}
+	.img4 img, .img5 img, .img6 img {
+		width: 270px;
+		height: 150px;
 	}
 	
 	.hurb {
