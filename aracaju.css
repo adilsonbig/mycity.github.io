@@ -498,6 +498,7 @@ p.texto {
 .product1 img {
 	width: 250px;
 	border-radius: 20px;
+	
 }
 .product2 {
 	display: flex;
@@ -995,6 +996,42 @@ p.contact_ag {
 		display: flex;
 		justify-content: center;
 		
+	}
+	.conj1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.conj2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.conj1 img, .conj2 img{
+		margin-top: 30px;
+	}
+	.menu {
+		display: flex;
+		justify-content: center;
+	}
+	.product1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		
+	}
+	.product1 img {
+		margin-top: 80px;
+	}
+	.product2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 	
 	
