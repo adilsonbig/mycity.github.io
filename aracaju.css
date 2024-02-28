@@ -998,7 +998,12 @@ p.contact_ag {
 		width: 270px;
 		height: 150px;
 	}
-	
+	.events h1 {
+		font-size: 1rem;
+	}
+	.fut_events a {
+		font-size: 0.60rem;
+	}
 	.hurb {
 		display: none;
 	}
